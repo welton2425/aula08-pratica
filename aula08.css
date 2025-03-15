@@ -2,7 +2,7 @@
 header {
     padding: 20px;
     /*responsavel pelo preenchimento e tamanho */
-    background-color: #050000;
+   background:  linear-gradient(90deg, #0c5149 0%, #07f9a2 35%, rgba(0,212,255,1) 100%);
     /* cor de fundo */
     display: flex;
     /*tornando os intens flex lado a lado */
@@ -63,7 +63,7 @@ header h1 {
 
 
 
-/*inicio da seção*/
+/*inicio da primeira sessão*/
 
 .arthur {
     padding: 160px;
@@ -137,12 +137,12 @@ header h1 {
     /*responssavel por alinha os itens */
     gap: 30px;
     /*espaço entre os elementos */
-    flex-direction: column;
+    flex-direction: column;/*deixando os itens flexivel*/
 
 }
 
 .manu i {
-    font-size: 50px;
+    font-size: 50px; /*tamanho dos iconens*/
     color: rgb(238, 195, 6);
     /*cor da letra */
 
@@ -254,6 +254,7 @@ footer i {
     /*cor do icone*/
     font-size: 20px;
     /*tamanho do icone*/
+    
 }
  
  .div01 i {
